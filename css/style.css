@@ -30,8 +30,8 @@ a {
 
 header {
     background-color: #000000;
-    width: 250px;
-    height: calc(100vh - 100px);
+    width: 200px;
+    height: calc(100vh - 80px);
     color: #6e7177;
     flex-direction: column;
     justify-content: space-between;
@@ -65,8 +65,8 @@ header .user hr {
 
 main {
     background-color: #141922;
-    width: calc(100% - 250px);
-    height: calc(100vh - 100px);
+    width: calc(100% - 200px);
+    height: calc(100vh - 80px);
     flex-grow: 1;
     overflow-y: scroll;
     color: #fff;
@@ -97,13 +97,19 @@ main {
     padding-top: 2rem;
 }
 
+#popular {
+    padding-bottom: 2rem;
+}
+
 .card {
     flex-direction: column;
+    width: calc(100% / 6);
 }
+
 .square,
 .square-4 {
-    width: calc(200px - 2rem);
-    height: calc(200px - 2rem);
+    width: calc(200px - 1rem);
+    height: calc(200px - 1rem);
     flex-wrap: wrap;
     background-color: crimson;
     margin-right: 1rem;
@@ -129,6 +135,7 @@ main ul {
     font-size: .8rem;
 }
 
+
 main h1,
 main h3 {
     padding-bottom: 1.5rem;
@@ -140,6 +147,9 @@ main h3 {
     line-height: 1rem;
 }
 
+main h1 {
+    font-size: 1.2rem;
+}
 main h2 {
     padding-top: 1rem;
 }
@@ -149,7 +159,7 @@ main h2 {
 
 footer {
     background-color: #282828;
-    height: 100px;
+    height: 80px;
     width: 100%;
 }
 
@@ -171,7 +181,20 @@ footer {
 /*MD*/
 
 @media screen and (max-width: 992px) {
-    
+
+
+    main {
+        overflow-x: hidden;
+    }
+ 
+    main ul {
+        flex-wrap: wrap;
+    }
+
+    main .card {
+        flex-wrap: nowrap;
+    }
+
 }
 
 
@@ -181,12 +204,19 @@ footer {
     
 }
 
+    main {
+    overflow-x: hidden;
+    }
 
 
 
 /*XS*/
 
 @media screen and (max-width: 576px) {
+
+    main {
+        overflow-x: hidden;
+    }
     
 }
 
