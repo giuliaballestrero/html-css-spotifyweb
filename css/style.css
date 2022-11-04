@@ -234,7 +234,11 @@ footer {
     main {
         overflow-x: hidden;
     }
-    
+
+    header {
+        width: 60px;
+    }
+
 }
 
 
