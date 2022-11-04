@@ -93,7 +93,7 @@ main {
 #recently-played,
 #daily-mix,
 #popular {
-    width: 95%;
+    width: 98%;
     padding-top: 2rem;
 }
 
@@ -101,15 +101,37 @@ main {
     padding-bottom: 2rem;
 }
 
-.card {
-    flex-direction: column;
-    width: calc(100% / 6);
+main nav {
+    color: #6e7177;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    justify-content: center;
 }
 
-.square,
-.square-4 {
-    width: calc(200px - 1rem);
-    height: calc(200px - 1rem);
+main ul {
+    justify-content: center;
+    font-size: .8rem;
+}
+
+main ul li {
+    padding: 0 1rem 1rem 0;
+}
+
+
+.card-container {
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-direction: column;
+    width: calc(100% / 6 - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.square {
+    width: 100%;
+    height: 150px;
     flex-wrap: wrap;
     background-color: crimson;
     margin-right: 1rem;
@@ -123,17 +145,6 @@ main {
     border: 1px solid black;
 }
 
-main nav {
-    width: 50%;
-    color: #6e7177;
-    padding-top: 1rem;
-    text-transform: uppercase;
-}
-
-main ul {
-    justify-content: space-between;
-    font-size: .8rem;
-}
 
 
 main h1,
@@ -149,6 +160,7 @@ main h3 {
 
 main h1 {
     font-size: 1.2rem;
+    padding-left: 1rem;
 }
 main h2 {
     padding-top: 1rem;
@@ -188,10 +200,12 @@ footer {
  
     main ul {
         flex-wrap: wrap;
+        padding: 0 3rem;
     }
 
     main .card {
-        width: calc(100% / 4);
+        width: calc(100% / 4 - 2rem);
+        flex-wrap: wrap;
     }
     
 
@@ -205,9 +219,12 @@ footer {
     main {
         overflow-x: hidden;
     }
-}
 
-   s
+    main .card {
+        width: calc(100% / 2 - 2rem);
+        flex-wrap: wrap;
+    }
+}
 
 
 /*XS*/
