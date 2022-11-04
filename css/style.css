@@ -10,15 +10,17 @@
 
 /*UTILITIES*/
 
-.container {
-
+.centered {
+    margin: 0 auto;
 }
 
 .flex {
     display: flex;
 }
 
-
+ul li {
+    list-style-type: none;
+}
 
 /*HEADER*/
 
@@ -37,8 +39,51 @@ main {
     height: calc(100vh - 100px);
     flex-grow: 1;
     overflow-y: scroll;
+    color: #fff;
 }
 
+#upgrade-bar {
+    text-align: end;
+}
+
+#recently-played,
+#playlist,
+#popular {
+    width: 95%;
+    padding-top: 2rem;
+}
+
+.card,
+.card-4 {
+    width: calc(200px - 2rem);
+    height: calc(200px - 2rem);
+    flex-wrap: wrap;
+    background-color: crimson;
+    margin-right: 1rem;
+}
+
+.small-square {
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+nav {
+    width: 60%;
+    color: #6e7177;
+    padding-top: 2rem;
+}
+
+ul {
+    justify-content: space-between;
+}
+
+h1,
+p {
+    padding-bottom: 1.5rem;
+}
 
 
 /*FOOTER*/
