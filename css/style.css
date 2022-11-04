@@ -182,7 +182,6 @@ footer {
 
 @media screen and (max-width: 992px) {
 
-
     main {
         overflow-x: hidden;
     }
@@ -192,8 +191,9 @@ footer {
     }
 
     main .card {
-        flex-wrap: nowrap;
+        width: calc(100% / 4);
     }
+    
 
 }
 
@@ -202,12 +202,12 @@ footer {
 
 @media screen and (max-width: 768px) {
     
+    main {
+        overflow-x: hidden;
+    }
 }
 
-    main {
-    overflow-x: hidden;
-    }
-
+   s
 
 
 /*XS*/
