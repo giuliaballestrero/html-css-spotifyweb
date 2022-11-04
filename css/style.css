@@ -47,6 +47,10 @@ header li {
     line-height: 1.5rem;
 }
 
+header h3 {
+    padding-bottom: 1rem;
+}
+
 header .menu,
 header .playlist {
     padding-top: 1.5rem;
@@ -93,8 +97,11 @@ main {
     padding-top: 2rem;
 }
 
-.card,
-.card-4 {
+.card {
+    flex-direction: column;
+}
+.square,
+.square-4 {
     width: calc(200px - 2rem);
     height: calc(200px - 2rem);
     flex-wrap: wrap;
@@ -110,19 +117,31 @@ main {
     border: 1px solid black;
 }
 
-nav {
+main nav {
     width: 50%;
     color: #6e7177;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
 }
 
-ul {
+main ul {
     justify-content: space-between;
+    font-size: .8rem;
 }
 
 main h1,
-main p {
+main h3 {
     padding-bottom: 1.5rem;
+}
+
+main h2,
+main h3 {
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
+main h2 {
+    padding-top: 1rem;
 }
 
 
