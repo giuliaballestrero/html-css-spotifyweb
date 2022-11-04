@@ -28,6 +28,28 @@ header {
     background-color: #000000;
     width: 250px;
     height: calc(100vh - 100px);
+    color: #6e7177;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1rem ;
+    font-size: .8rem;
+}
+
+nav {
+    flex-direction: column;
+}
+
+header li {
+    line-height: 1.5rem;
+}
+
+header .menu,
+header .playlist {
+    padding-top: 1.5rem;
+}
+
+header .user hr {
+    margin: .7rem 0;
 }
 
 
@@ -47,7 +69,7 @@ main {
 }
 
 #recently-played,
-#playlist,
+#daily-mix,
 #popular {
     width: 95%;
     padding-top: 2rem;
@@ -80,8 +102,8 @@ ul {
     justify-content: space-between;
 }
 
-h1,
-p {
+main h1,
+main p {
     padding-bottom: 1.5rem;
 }
 
