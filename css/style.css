@@ -299,13 +299,19 @@ footer {
         width: 60px;
     }
 
-    header nav,
-    header div.user {
-        visibility: hidden;
+    header span,
+    header h3,
+    header hr,
+    header p {
+        display: none;
     }
 
-    header img {
-        visibility: visible;
+    header .playlist{
+        display: none;
+    }
+
+    header .user div:first-child img {
+        padding-bottom: 1rem;
     }
 
     header nav div:first-child img:first-child {
