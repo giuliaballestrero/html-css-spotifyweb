@@ -47,12 +47,23 @@ nav {
     flex-direction: column;
 }
 
+header nav img {
+    width: 70%;
+}
+
 header li {
     line-height: 1.5rem;
 }
 
+header li span {
+    padding-left: .7rem;
+}
+
 header h3 {
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .8rem;
 }
 
 header .menu,
@@ -60,8 +71,40 @@ header .playlist {
     padding-top: 1.5rem;
 }
 
+header .menu ul li:first-child {
+    color: #fff;
+}
+
+header .playlist span {
+    padding-left: .5rem;
+    vertical-align: top;
+}
+
 header .user hr {
     margin: .7rem 0;
+}
+
+header .user img,
+header .menu img {
+    width: 18px;
+}
+
+header .user p {
+    padding-left: .5rem;
+}
+
+.fa-square-plus {
+    font-size: 1.5rem;
+}
+
+.user div:last-child img {
+    background-color: #6e7177;
+    border-radius: 50%;
+}
+
+.user div:last-child p {
+    color: #fff;
+    font-weight: 700;
 }
 
 
@@ -72,7 +115,7 @@ main {
     width: calc(100% - 200px);
     height: calc(100vh - 80px);
     flex-grow: 1;
-    overflow-y: scroll;
+    overflow-y: auto;
     color: #fff;
 }
 

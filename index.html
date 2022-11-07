@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <!--Favicon-->
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <!--CSS-->
     <link rel="stylesheet" href="./css/style.css">
     <!--FontAwesome-->
@@ -24,20 +24,20 @@
         <header class="flex">
             <nav class="flex">
                 <div>
-                    <img src="" alt="Logo">
+                    <img src="./img/logo.svg" alt="Logo">
                 </div>
 
                 <div class="menu">
                     <ul>
-                        <li>Home</li>
-                        <li>Cerca</li>
-                        <li>La tua libreria</li>
+                        <li><img src="./img/home.svg" alt="home icon"><span>Home</span></li>
+                        <li><img src="./img/search.svg" alt="search icon"><span>Cerca</span></li>
+                        <li><img src="./img/libreria.svg" alt="library icon"><span>La tua libreria</span></li>
                     </ul>
                 </div>
 
                 <div class="playlist">
                     <h3>Playlist</h3>
-                    <p>Icona - Crea Playlist</p>
+                    <p><i class="fa-sharp fa-solid fa-square-plus"></i><span>Crea Playlist</span></p>
                     <ul>
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
@@ -51,9 +51,15 @@
             </nav>
 
             <div class="user">
-                <p>icona Installa app</p>
+                <div class="flex">
+                    <img src="./img/download.svg" alt="download app">
+                    <p>Installa app</p>
+                </div>
                 <hr>
-                <p>John Doe</p>
+                <div class="flex">
+                    <img src="./img/profile.svg" alt="user icon">
+                    <p>John Doe</p>
+                </div>
             </div>
         </header>
 
