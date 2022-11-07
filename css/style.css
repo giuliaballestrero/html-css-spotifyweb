@@ -51,6 +51,10 @@ header nav img {
     width: 70%;
 }
 
+header nav div:first-child img:last-child {
+    display: none;
+}
+
 header li {
     line-height: 1.5rem;
 }
@@ -125,7 +129,7 @@ main {
     color: #fff;
     justify-content: end;
     align-items: center;
-    margin-right: 1rem;
+    padding-right: 1rem;
 }
 
 #upgrade-bar a {
@@ -261,10 +265,6 @@ footer {
 
 @media screen and (max-width: 992px) {
 
-    main {
-        overflow-x: hidden;
-    }
- 
     main ul {
         flex-wrap: wrap;
         padding: 0 3rem;
@@ -283,9 +283,6 @@ footer {
 
 @media screen and (max-width: 768px) {
     
-    main {
-        overflow-x: hidden;
-    }
 
     main .card {
         width: calc(100% / 2 - 2rem);
@@ -298,12 +295,25 @@ footer {
 
 @media screen and (max-width: 576px) {
 
-    main {
-        overflow-x: hidden;
-    }
-
     header {
         width: 60px;
+    }
+
+    header nav,
+    header div.user {
+        visibility: hidden;
+    }
+
+    header img {
+        visibility: visible;
+    }
+
+    header nav div:first-child img:first-child {
+        display: none;
+    }
+
+    header nav div:first-child img:last-child {
+        display: initial;
     }
 
 }
