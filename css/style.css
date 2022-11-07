@@ -313,25 +313,25 @@ footer .footer-right i {
 }
 
 footer #playbar {
-    width: 100px;
+    width: 80px;
     height: 3px;
     background-color: #fff;
 }
 
 footer #playbar-grey {
-    width: 200px;
+    width: 180px;
     height: 3px;
     background-color: #6e7177;
 }
 
 footer #small-playbar {
-    width: 30px;
+    width: 20px;
     height: 3px;
     background-color: #fff;
 }
 
 footer #small-playbar-grey {
-    width: 100px;
+    width: 90px;
     height: 3px;
     background-color: #6e7177;
 }
@@ -369,6 +369,31 @@ footer #small-playbar-grey {
         width: calc(100% / 2 - 2rem);
         flex-wrap: wrap;
     }
+
+    footer #playbar {
+        width: 40px;
+        height: 3px;
+        background-color: #fff;
+    }
+    
+    footer #playbar-grey {
+        width: 100px;
+        height: 3px;
+        background-color: #6e7177;
+    }
+    
+    footer #small-playbar {
+        width: 10px;
+        height: 3px;
+        background-color: #fff;
+    }
+    
+    footer #small-playbar-grey {
+        width: 50px;
+        height: 3px;
+        background-color: #6e7177;
+    }
+    
 }
 
 
@@ -401,6 +426,30 @@ footer #small-playbar-grey {
 
     header nav div:first-child img:last-child {
         display: initial;
+    }
+
+    footer #playbar {
+        width: 20px;
+        height: 3px;
+        background-color: #fff;
+    }
+    
+    footer #playbar-grey {
+        width: 60px;
+        height: 3px;
+        background-color: #6e7177;
+    }
+    
+    footer #small-playbar {
+        width: 5px;
+        height: 3px;
+        background-color: #fff;
+    }
+    
+    footer #small-playbar-grey {
+        width: 30px;
+        height: 3px;
+        background-color: #6e7177;
     }
 
 }
