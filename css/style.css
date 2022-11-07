@@ -264,14 +264,14 @@ footer .footer-left img {
     height: 40px;
 }
 
-footer .footer-left h4, p {
+footer .footer-left h4,
+footer .footer-left p {
     font-size: .6rem;
     padding: 0 1rem;
 }
 
 footer .footer-left p {
     color: #6e7177;
-    font-weight: 700;
 }
 
 footer .footer-left .fa-regular {
@@ -282,6 +282,11 @@ footer .footer-left .fa-regular {
 .footer-middle {
     flex-direction: column;
     justify-content: center;
+}
+
+.footer-middle p {
+    font-size: .7rem;
+    padding: 0 1rem;
 }
 
 footer .footer-middle div:first-child,
