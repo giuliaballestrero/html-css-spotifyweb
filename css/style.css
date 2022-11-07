@@ -295,42 +295,48 @@ footer .footer-middle div:first-child {
 }
 
 footer .footer-middle div:first-child i {
-   padding: 1rem 1rem;
+   padding: .5rem 1rem;
 }
 
 footer .footer-middle .fa-circle-play {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.footer-right {
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-right i {
+    font-size: .8rem;
+    padding-right: 1.5rem;
 }
 
 footer #playbar {
-    width: 80%;
+    width: 100px;
     height: 3px;
-    background-color: #6e7177;
+    background-color: #fff;
 }
 
 footer #playbar-grey {
-    width: 80%;
+    width: 200px;
     height: 3px;
     background-color: #6e7177;
 }
 
 footer #small-playbar {
-    width: 80%;
+    width: 30px;
     height: 3px;
-    background-color: #6e7177;
+    background-color: #fff;
 }
 
 footer #small-playbar-grey {
-    width: 80%;
+    width: 100px;
     height: 3px;
     background-color: #6e7177;
 }
 
 
-footer .footer-right i {
-    font-size: .8rem;
-    padding-left: 1.5rem;
-}
 
 
 
