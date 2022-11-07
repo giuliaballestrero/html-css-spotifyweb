@@ -15,12 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
-
 </head>
 <body>
 
     <div class="flex">    
-
         <header class="flex">
             <nav class="flex">
                 <div>
@@ -207,39 +205,49 @@
             </section>
 
         </main>
-
     </div>
-
-
 
     <footer class="flex">
         <section class="footer-container centered flex">
         
             <div class="footer-left flex">
-                <div>
-                    <img src="" alt="Sinister album">
+                <div class="flex">
+                    <img src="./img/sinister.jpeg" alt="Sinister album">
+                    <div>    
+                    <h4>Sinister</h4>
+                    <p>Brano Nome</p>
+                    </div>
                 </div>
-
                 <div>
-                    icona heart
-                    icona folder
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
                 </div>
             </div>
 
             <div class="footer-middle flex">
-                <div>
-                    icone musicali  
+                <div class="flex">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
                 </div>
 
-                <div>
-                    icone riproduzione canzone
+                <div class="flex">
+                    <p>0:25</p>
+                    <div id="playbar"></div>
+                    <div id="playbar-grey"></div>
+                    <p>4:35</p>
                 </div>
             </div>
 
-            <div class="footer-right">
-                <div>
-                    icone visualizzazione e volume 
-                </div>
+            <div class="footer-right flex">
+                <i class="fa-solid fa-list-ul"></i>
+                <i class="fa-solid fa-desktop"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <div></div>
+                <div id="small-playbar"></div>
+                <div id="small-playbar-grey"></div>
             </div>
 
         </section>
