@@ -377,11 +377,23 @@ footer #small-playbar-grey {
     background-color: #6e7177;
 }
 
-footer #playbar:hover,
-footer #small-playbar:hover {
+.footer-middle:hover #playbar,
+.footer-right:hover #small-playbar {
     background-color: rgb(57, 236, 57);
 }
 
+footer .dot {
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: none;
+}
+
+.footer-middle:hover .dot,
+.footer-right:hover .dot {
+    display: initial;
+}
 
 
 
