@@ -81,6 +81,7 @@ header .playlist {
     padding-top: 1.5rem;
 }
 
+
 header .menu ul li:first-child {
     color: #fff;
 }
@@ -440,9 +441,11 @@ footer #small-playbar:hover {
     header span,
     header h3,
     header hr,
-    header p {
+    header p,
+    header .user a {
         display: none;
     }
+
 
     header .playlist{
         display: none;
