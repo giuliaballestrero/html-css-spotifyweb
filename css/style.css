@@ -158,6 +158,15 @@ main {
     font-size: .6rem;
 }
 
+main .underline {
+    height: 3px;
+    background-color: green;
+    width: 30px;
+    position: absolute;
+    left: 27%;
+    margin-top: .2rem;
+}
+
 #recently-played,
 #daily-mix,
 #popular {
@@ -183,6 +192,10 @@ main ul {
 
 main ul li {
     padding: 0 1rem 1rem 0;
+}
+
+main ul li:first-child {
+    position: relative;
 }
 
 main .album {
