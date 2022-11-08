@@ -88,6 +88,15 @@ header .menu ul li:first-child {
     color: #fff;
 }
 
+header .underline-left {
+    height: 30px;
+    width: 3px;
+    background-color: green;
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+
 header .playlist span {
     padding-left: .5rem;
     vertical-align: top;
