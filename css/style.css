@@ -126,7 +126,6 @@ main {
     background-color: #141922;
     width: calc(100% - 200px);
     height: calc(100vh - 80px);
-    flex-grow: 1;
     overflow-y: auto;
     color: #fff;
 }
@@ -298,9 +297,13 @@ footer .footer-left img {
 }
 
 footer .footer-left h4,
-footer .footer-left div:first-child a {
+footer .footer-left span {
     font-size: .6rem;
     padding: 0 1rem;
+}
+
+footer .footer-left span:hover {
+    text-decoration: underline;
 }
 
 footer .footer-left div:last-child .fa-regular {
