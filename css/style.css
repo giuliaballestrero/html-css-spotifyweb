@@ -11,7 +11,7 @@
 /*UTILITIES*/
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .centered {
@@ -28,6 +28,11 @@ ul li {
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #fff;
 }
 
 /*HEADER*/
@@ -93,6 +98,7 @@ header .menu img {
     width: 18px;
 }
 
+header .user a,
 header .user p {
     padding-left: .5rem;
 }
@@ -173,6 +179,10 @@ main img {
     object-fit: contain;
 }
 
+main img:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
 .card-container {
     flex-wrap: wrap;
 }
@@ -184,7 +194,8 @@ main img {
     margin-right: 1rem;
 }
 
-.square {
+ 
+.album {
     width: 100%;
     flex-wrap: wrap;
     margin-right: 1rem;
@@ -244,6 +255,8 @@ footer {
     background-color: #282828;
     height: 80px;
     width: 100%;
+    position: fixed;
+    z-index: 3;
 }
 
 .footer-container {
