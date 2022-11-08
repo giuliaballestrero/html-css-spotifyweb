@@ -388,6 +388,8 @@ footer #small-playbar-grey {
     background-color: #6e7177;
 }
 
+
+
 /*hover*/
 
 .footer-middle:hover #playbar,
@@ -410,6 +412,24 @@ footer .dot {
     display: initial;
 }
 
+.footer-middle:hover #playbar {
+    width: 75px;
+}
+
+.footer-middle:hover #playbar-grey {
+    width: 195px;
+
+}
+
+.footer-right:hover #small-playbar {
+    width: 15px;
+
+}
+
+.footer-right:hover #small-playbar-grey {
+    width: 85px;
+
+}
 
 /*********************RESPONSIVENESS*********************/
 
