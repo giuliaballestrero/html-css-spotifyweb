@@ -562,6 +562,12 @@ footer .dot {
         display: initial;
     }
 
+    header .underline-left {
+        top: 8%;
+        left: 0;
+    }
+    
+
     footer #playbar {
         width: 20px;
         height: 3px;
