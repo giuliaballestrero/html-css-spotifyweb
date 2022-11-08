@@ -31,6 +31,8 @@ a {
     color: inherit;
 }
 
+/*hover*/
+
 a:hover {
     color: #fff;
     text-shadow: #282828;
@@ -126,6 +128,7 @@ main {
     background-color: #141922;
     width: calc(100% - 200px);
     height: calc(100vh - 80px);
+    flex-grow: 1;
     overflow-y: auto;
     color: #fff;
 }
@@ -138,6 +141,8 @@ main {
     align-items: center;
     padding-right: 1rem;
 }
+
+/*hover*/
 
 #upgrade-bar a:hover {
     transition: transform .3s;
@@ -188,7 +193,7 @@ main .card-container {
     flex-wrap: wrap;
 }
 
-main .album img {
+main img {
     width: 100%;
 }
 
@@ -215,6 +220,8 @@ main .card {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/*hover*/
 
 .album:hover .overlay {
     display: initial;
@@ -302,6 +309,8 @@ footer .footer-left span {
     padding: 0 1rem;
 }
 
+/*hover*/
+
 footer .footer-left span:hover {
     text-decoration: underline;
 }
@@ -337,6 +346,8 @@ footer .footer-middle div:first-child i {
 footer .footer-middle .fa-circle-play {
     font-size: 1.5rem;
 }
+
+/*hover*/
 
 .footer-middle .fa-circle-play:hover {
     transition: transform .2s;
@@ -377,6 +388,8 @@ footer #small-playbar-grey {
     background-color: #6e7177;
 }
 
+/*hover*/
+
 .footer-middle:hover #playbar,
 .footer-right:hover #small-playbar {
     background-color: rgb(57, 236, 57);
@@ -390,11 +403,12 @@ footer .dot {
     display: none;
 }
 
+/*hover*/
+
 .footer-middle:hover .dot,
 .footer-right:hover .dot {
     display: initial;
 }
-
 
 
 /*********************RESPONSIVENESS*********************/
