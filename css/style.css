@@ -182,8 +182,11 @@ main ul li {
 }
 
 main .album {
-    flex-wrap: wrap;
     position: relative;
+}
+
+main .card-container {
+    flex-wrap: wrap;
 }
 
 main .album img {
