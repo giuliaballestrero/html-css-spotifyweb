@@ -195,7 +195,6 @@ main .card-container {
 
 main .album img {
     width: 100%;
-    height: 100%;
 }
 
 main .card {
@@ -207,11 +206,11 @@ main .card {
 
 .album .overlay {
     width: 100%;
-    height: 100%;
     background-color: #00000060;
     position: absolute;
     left: 0;
     display: none;
+    aspect-ratio: 1;
 }
 
 .album .overlay .fa-circle-play {
