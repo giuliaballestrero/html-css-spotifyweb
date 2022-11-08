@@ -181,17 +181,8 @@ main ul li {
     padding: 0 1rem 1rem 0;
 }
 
-main img {
+main .album img {
     width: 100%;
-    object-fit: contain;
-}
-
-main img:hover {
-    background-color: rgba(0, 0, 0, .1);
-}
-
-.card-container {
-    flex-wrap: wrap;
 }
 
 .card {
@@ -201,22 +192,9 @@ main img:hover {
     margin-right: 1rem;
 }
 
- 
 .album {
-    width: 100%;
     flex-wrap: wrap;
-    margin-right: 1rem;
 }
-
-.small-square {
-    height: calc(100% / 2);
-    width: calc(100% / 2);
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-}
-
-
 
 main h1,
 main h3 {
@@ -230,23 +208,23 @@ main h3 {
 }
 
 main h1 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-left: 1rem;
 }
 
 main h2 {
-    font-size: .9rem;
+    font-size: .8rem;
     padding-top: 1rem;
 }
 
 main h3 {
-    font-size: .8rem;
+    font-size: .7rem;
     color: #6e7177;
     padding-top: .5rem;
 }
 
 main p {
-    font-size: .8rem;
+    font-size: .7rem;
     color: #6e7177;
     padding: 0 0 1rem 1rem;
 }
