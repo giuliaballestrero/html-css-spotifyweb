@@ -564,6 +564,25 @@ footer .dot {
         background-color: #6e7177;
     }
 
+    .footer-middle:hover #playbar {
+        width: 15px;
+    }
+    
+    .footer-middle:hover #playbar-grey {
+        width: 55px;
+    
+    }
+    
+    .footer-right:hover #small-playbar {
+        width: 1px;
+    
+    }
+    
+    .footer-right:hover #small-playbar-grey {
+        width: 24px;
+    
+    }
+
 }
 
 
